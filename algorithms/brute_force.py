@@ -1,6 +1,10 @@
 import itertools
 
 def solve(distance_matrix):
+    if len(distance_matrix) >= 12:
+        print("Broj gradova prevelik za brute force")
+        return [], 0
+
     cities = list(range(len(distance_matrix)))
     start_city = cities[0]
     other_cities = cities[1:]
