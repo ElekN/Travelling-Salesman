@@ -1,6 +1,6 @@
 # Rešavanje problema trgovačkog putnika
 
-Projekat implementacije različitih algoritama za rešavanje problema trgovačkog putnika.
+Projekat implementacije različitih algoritama za rešavanje problema trgovačkog putnika. Korišćeni algoritmi: Brute force, Branch and bound, Nearest neighbor i Genetic algorithm.
 
 ## Struktura projekta
 
