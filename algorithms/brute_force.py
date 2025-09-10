@@ -1,7 +1,7 @@
 import itertools
 
 def solve(distance_matrix):
-    if len(distance_matrix) >= 12:
+    if len(distance_matrix) >= 13:
         print("Broj gradova prevelik za brute force")
         return [], 0
 
