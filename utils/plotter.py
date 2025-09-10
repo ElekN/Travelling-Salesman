@@ -19,7 +19,7 @@ def plot_route(coordinates, path, title="TSP Rešenje"):
             'b-'
         )
         
-    plt.title(title)
+    plt.title(f"{title}\nstart={path[0]}")
     plt.xlabel("X koordinata")
     plt.ylabel("Y koordinata")
     plt.grid(True)
